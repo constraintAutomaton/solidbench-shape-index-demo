@@ -1,0 +1,19 @@
+{
+  "name": "shape-query-contaiment-benchmark",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "shape-tree-in-solid-bench": "https://github.com/constraintAutomaton/shape-tree-in-solid-bench",
+    "solidbench": "^1.7.1"
+  },
+  "scripts": {
+    "solidbench-generate": "bunx solidbench generate && bun run index.ts",
+    "clean":"rm -rf out-enhanced out-fragments out-queries out-snb out-validate out-validate-params/"
+  }
+}

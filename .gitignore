@@ -5,3 +5,5 @@ out-fragments
 out-queries
 out-validate-params
 out-validate
+componentsjs-error-state.json
+params.ini

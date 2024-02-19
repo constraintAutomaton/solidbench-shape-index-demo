@@ -1,0 +1,16 @@
+{
+    "shapes": {
+        "comments": {
+            "shape": "comments.shexc",
+            "folder": "comments"
+        },
+        "posts": {
+            "shape": "posts.shexc",
+            "folder": "posts"
+        },
+        "card": {
+            "shape": "profile.shexc",
+            "folder": "profile"
+        }
+    }
+}

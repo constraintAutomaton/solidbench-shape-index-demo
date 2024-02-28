@@ -2,15 +2,15 @@
     "shapes": {
         "comments": {
             "shape": "comments.shexc",
-            "folder": "comments"
+            "directory": "comments"
         },
         "posts": {
             "shape": "posts.shexc",
-            "folder": "posts"
+            "directory": "posts"
         },
         "card": {
             "shape": "profile.shexc",
-            "folder": "profile"
+            "directory": "profile"
         }
     }
 }

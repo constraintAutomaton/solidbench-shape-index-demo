@@ -12,7 +12,7 @@
     "solidbench": "/home/id357/Documents/PhD/coding/SolidBench.js"
   },
   "scripts": {
-    "solidbench-generate": "node node_modules/solidbench/bin/solidbench generate -f ./fragmenter-config-pod.json",
+    "solidbench-generate": "node node_modules/solidbench/bin/solidbench.js generate -f ./fragmenter-config-pod.json",
     "solidbench-serve": "node node_modules/solidbench/bin/solidbench serve --config ./server-config.json",
     "clean": "rm -rf out-enhanced out-fragments out-queries out-snb out-validate out-validate-params/"
   }

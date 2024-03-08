@@ -450,7 +450,7 @@
       },
       {
         "@type": "FragmentationStrategyProbabilityQuadHandling",
-        "generationProbability": 50,
+        "generationProbability": 100,
         "partitionByResourceType": true,
         "strategy": {
           "@type": "FragmentationStrategyShape",
